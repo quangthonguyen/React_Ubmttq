@@ -38,8 +38,8 @@ import {
 import { useSelector, useDispatch } from 'react-redux';
 import { reduxRemoveUserInfo } from '../../redux/slice/userInfo';
 import io from 'socket.io-client';
-const socket = io('http://localhost:5000');
-// const socket = io('https://api-ummttqqbt.herokuapp.com');
+// const socket = io('http://localhost:5000');
+const socket = io('https://api-ummttqqbt.herokuapp.com');
 
 const badge = {
   top: '8px',
